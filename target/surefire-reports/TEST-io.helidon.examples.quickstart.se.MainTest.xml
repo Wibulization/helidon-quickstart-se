@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.helidon.examples.quickstart.se.MainTest" time="2.235" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Khoi-Kun\Downloads\Homework\Helidon\helidon-quickstart-se\target\test-classes;C:\Users\Khoi-Kun\Downloads\Homework\Helidon\helidon-quickstart-se\target\classes;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\helidon-webserver\4.0.5\helidon-webserver-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\http\helidon-http\4.0.5\helidon-http-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-configurable\4.0.5\helidon-common-configurable-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-buffers\4.0.5\helidon-common-buffers-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-media-type\4.0.5\helidon-common-media-type-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-uri\4.0.5\helidon-common-uri-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-parameters\4.0.5\helidon-common-parameters-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-socket\4.0.5\helidon-common-socket-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-context\4.0.5\helidon-common-context-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-key-util\4.0.5\helidon-common-key-util-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-security\4.0.5\helidon-common-security-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-task\4.0.5\helidon-common-task-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-tls\4.0.5\helidon-common-tls-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\logging\helidon-logging-common\4.0.5\helidon-logging-common-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\http\media\helidon-http-media\4.0.5\helidon-http-media-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\http\encoding\helidon-http-encoding\4.0.5\helidon-http-encoding-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\features\helidon-common-features\4.0.5\helidon-common-features-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\config\helidon-config-yaml\4.0.5\helidon-config-yaml-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\config\helidon-config\4.0.5\helidon-config-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\inject\helidon-inject-api\4.0.5\helidon-inject-api-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-types\4.0.5\helidon-common-types-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common\4.0.5\helidon-common-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\observe\helidon-webserver-observe-health\4.0.5\helidon-webserver-observe-health-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\observe\helidon-webserver-observe\4.0.5\helidon-webserver-observe-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\helidon-webserver-cors\4.0.5\helidon-webserver-cors-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\cors\helidon-cors\4.0.5\helidon-cors-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\health\helidon-health\4.0.5\helidon-health-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\helidon-webserver-service-common\4.0.5\helidon-webserver-service-common-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\health\helidon-health-checks\4.0.5\helidon-health-checks-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-config\4.0.5\helidon-common-config-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\logging\helidon-logging-jul\4.0.5\helidon-logging-jul-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\jakarta\json\jakarta.json-api\2.1.3\jakarta.json-api-2.1.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\http\media\helidon-http-media-jsonp\4.0.5\helidon-http-media-jsonp-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\org\eclipse\parsson\parsson\1.1.5\parsson-1.1.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\observe\helidon-webserver-observe-metrics\4.0.5\helidon-webserver-observe-metrics-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\metrics\helidon-metrics-api\4.0.5\helidon-metrics-api-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\metrics\providers\helidon-metrics-providers-micrometer\4.0.5\helidon-metrics-providers-micrometer-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\micrometer\micrometer-core\1.11.3\micrometer-core-1.11.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\micrometer\micrometer-commons\1.11.3\micrometer-commons-1.11.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\micrometer\micrometer-observation\1.11.3\micrometer-observation-1.11.3.jar;C:\Users\Khoi-Kun\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\Khoi-Kun\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\micrometer\micrometer-registry-prometheus\1.11.3\micrometer-registry-prometheus-1.11.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\prometheus\simpleclient_common\0.16.0\simpleclient_common-0.16.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\prometheus\simpleclient\0.16.0\simpleclient-0.16.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\prometheus\simpleclient_tracer_otel\0.16.0\simpleclient_tracer_otel-0.16.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\prometheus\simpleclient_tracer_otel_agent\0.16.0\simpleclient_tracer_otel_agent-0.16.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\prometheus\simpleclient_tracer_common\0.16.0\simpleclient_tracer_common-0.16.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\metrics\helidon-metrics-system-meters\4.0.5\helidon-metrics-system-meters-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webclient\helidon-webclient\4.0.5\helidon-webclient-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webclient\helidon-webclient-api\4.0.5\helidon-webclient-api-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webclient\helidon-webclient-http1\4.0.5\helidon-webclient-http1-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Khoi-Kun\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Khoi-Kun\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Khoi-Kun\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Khoi-Kun\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\testing\junit5\helidon-webserver-testing-junit5\4.0.5\helidon-webserver-testing-junit5-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\testing\helidon-common-testing-http-junit5\4.0.5\helidon-common-testing-http-junit5-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\testing\helidon-common-testing-junit5\4.0.5\helidon-common-testing-junit5-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient\4.0.5\helidon-dbclient-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-mapper\4.0.5\helidon-common-mapper-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-jdbc\4.0.5\helidon-dbclient-jdbc-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\features\helidon-common-features-api\4.0.5\helidon-common-features-api-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\builder\helidon-builder-api\4.0.5\helidon-builder-api-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\config\helidon-config-metadata\4.0.5\helidon-config-metadata-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-hikari\4.0.5\helidon-dbclient-hikari-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\Khoi-Kun\.m2\repository\org\postgresql\postgresql\42.6.2\postgresql-42.6.2.jar;C:\Users\Khoi-Kun\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\Khoi-Kun\.m2\repository\org\slf4j\slf4j-jdk14\2.0.9\slf4j-jdk14-2.0.9.jar;C:\Users\Khoi-Kun\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-health\4.0.5\helidon-dbclient-health-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-metrics\4.0.5\helidon-dbclient-metrics-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-metrics-hikari\4.0.5\helidon-dbclient-metrics-hikari-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\dropwizard\metrics\metrics-core\4.1.36\metrics-core-4.1.36.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-jsonp\4.0.5\helidon-dbclient-jsonp-4.0.5.jar;"/>
+    <property name="helidon.config.profile" value="test"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Khoi-Kun\AppData\Local\Temp\surefire10265092828500755248\surefirebooter-20240317225643330_3.jar C:\Users\Khoi-Kun\AppData\Local\Temp\surefire10265092828500755248 2024-03-17T22-56-43_129-jvmRun1 surefire-20240317225643330_1tmp surefire_0-20240317225643330_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Khoi-Kun\Downloads\Homework\Helidon\helidon-quickstart-se\target\test-classes;C:\Users\Khoi-Kun\Downloads\Homework\Helidon\helidon-quickstart-se\target\classes;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\helidon-webserver\4.0.5\helidon-webserver-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\http\helidon-http\4.0.5\helidon-http-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-configurable\4.0.5\helidon-common-configurable-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-buffers\4.0.5\helidon-common-buffers-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-media-type\4.0.5\helidon-common-media-type-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-uri\4.0.5\helidon-common-uri-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-parameters\4.0.5\helidon-common-parameters-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-socket\4.0.5\helidon-common-socket-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-context\4.0.5\helidon-common-context-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-key-util\4.0.5\helidon-common-key-util-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-security\4.0.5\helidon-common-security-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-task\4.0.5\helidon-common-task-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-tls\4.0.5\helidon-common-tls-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\logging\helidon-logging-common\4.0.5\helidon-logging-common-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\http\media\helidon-http-media\4.0.5\helidon-http-media-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\http\encoding\helidon-http-encoding\4.0.5\helidon-http-encoding-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\features\helidon-common-features\4.0.5\helidon-common-features-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\config\helidon-config-yaml\4.0.5\helidon-config-yaml-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\config\helidon-config\4.0.5\helidon-config-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\inject\helidon-inject-api\4.0.5\helidon-inject-api-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-types\4.0.5\helidon-common-types-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common\4.0.5\helidon-common-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\observe\helidon-webserver-observe-health\4.0.5\helidon-webserver-observe-health-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\observe\helidon-webserver-observe\4.0.5\helidon-webserver-observe-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\helidon-webserver-cors\4.0.5\helidon-webserver-cors-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\cors\helidon-cors\4.0.5\helidon-cors-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\health\helidon-health\4.0.5\helidon-health-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\helidon-webserver-service-common\4.0.5\helidon-webserver-service-common-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\health\helidon-health-checks\4.0.5\helidon-health-checks-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-config\4.0.5\helidon-common-config-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\logging\helidon-logging-jul\4.0.5\helidon-logging-jul-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\jakarta\json\jakarta.json-api\2.1.3\jakarta.json-api-2.1.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\http\media\helidon-http-media-jsonp\4.0.5\helidon-http-media-jsonp-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\org\eclipse\parsson\parsson\1.1.5\parsson-1.1.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\observe\helidon-webserver-observe-metrics\4.0.5\helidon-webserver-observe-metrics-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\metrics\helidon-metrics-api\4.0.5\helidon-metrics-api-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\metrics\providers\helidon-metrics-providers-micrometer\4.0.5\helidon-metrics-providers-micrometer-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\micrometer\micrometer-core\1.11.3\micrometer-core-1.11.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\micrometer\micrometer-commons\1.11.3\micrometer-commons-1.11.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\micrometer\micrometer-observation\1.11.3\micrometer-observation-1.11.3.jar;C:\Users\Khoi-Kun\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\Khoi-Kun\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\micrometer\micrometer-registry-prometheus\1.11.3\micrometer-registry-prometheus-1.11.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\prometheus\simpleclient_common\0.16.0\simpleclient_common-0.16.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\prometheus\simpleclient\0.16.0\simpleclient-0.16.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\prometheus\simpleclient_tracer_otel\0.16.0\simpleclient_tracer_otel-0.16.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\prometheus\simpleclient_tracer_otel_agent\0.16.0\simpleclient_tracer_otel_agent-0.16.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\prometheus\simpleclient_tracer_common\0.16.0\simpleclient_tracer_common-0.16.0.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\metrics\helidon-metrics-system-meters\4.0.5\helidon-metrics-system-meters-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webclient\helidon-webclient\4.0.5\helidon-webclient-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webclient\helidon-webclient-api\4.0.5\helidon-webclient-api-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webclient\helidon-webclient-http1\4.0.5\helidon-webclient-http1-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Khoi-Kun\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Khoi-Kun\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Khoi-Kun\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Khoi-Kun\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\webserver\testing\junit5\helidon-webserver-testing-junit5\4.0.5\helidon-webserver-testing-junit5-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\testing\helidon-common-testing-http-junit5\4.0.5\helidon-common-testing-http-junit5-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\testing\helidon-common-testing-junit5\4.0.5\helidon-common-testing-junit5-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient\4.0.5\helidon-dbclient-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\helidon-common-mapper\4.0.5\helidon-common-mapper-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-jdbc\4.0.5\helidon-dbclient-jdbc-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\common\features\helidon-common-features-api\4.0.5\helidon-common-features-api-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\builder\helidon-builder-api\4.0.5\helidon-builder-api-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\config\helidon-config-metadata\4.0.5\helidon-config-metadata-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-hikari\4.0.5\helidon-dbclient-hikari-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\Khoi-Kun\.m2\repository\org\postgresql\postgresql\42.6.2\postgresql-42.6.2.jar;C:\Users\Khoi-Kun\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\Khoi-Kun\.m2\repository\org\slf4j\slf4j-jdk14\2.0.9\slf4j-jdk14-2.0.9.jar;C:\Users\Khoi-Kun\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-health\4.0.5\helidon-dbclient-health-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-metrics\4.0.5\helidon-dbclient-metrics-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-metrics-hikari\4.0.5\helidon-dbclient-metrics-hikari-4.0.5.jar;C:\Users\Khoi-Kun\.m2\repository\io\dropwizard\metrics\metrics-core\4.1.36\metrics-core-4.1.36.jar;C:\Users\Khoi-Kun\.m2\repository\io\helidon\dbclient\helidon-dbclient-jsonp\4.0.5\helidon-dbclient-jsonp-4.0.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Khoi-Kun"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Khoi-Kun\Downloads\Homework\Helidon\helidon-quickstart-se"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Khoi-Kun\AppData\Local\Temp\surefire10265092828500755248\surefirebooter-20240317225643330_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="java.util.logging.config.file" value="C:\Users\Khoi-Kun\Downloads\Homework\Helidon\helidon-quickstart-se\target\classes/logging.properties"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="Khoi-Kun"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Khoi-Kun\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Khoi-Kun\AppData\Local\Temp\"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\Users\Khoi-Kun\Downloads\Homework\Helidon\helidon-quickstart-se"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Red Hat\apache-maven-3.9.4\bin;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Khoi-Kun\AppData\Local\Programs\Python\Python311;C:\Program Files\node-v20.11.1-win-x64\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\PostgreSQL\16\bin;C:\Users\Khoi-Kun\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Khoi-Kun\AppData\Local\Programs\Python\Python311\;C:\Users\Khoi-Kun\AppData\Local\Microsoft\WindowsApps;;C:\Users\Khoi-Kun\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\Khoi-Kun\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="" classname="io.helidon.examples.quickstart.se.MainTest" time="2.235">
+    <error message="Cannot invoke @SetUpRoute method" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Cannot invoke @SetUpRoute method
+	at io.helidon.webserver.testing.junit5.HelidonRoutingJunitExtension.lambda$createRoutingMethodCall$6(HelidonRoutingJunitExtension.java:184)
+	at io.helidon.webserver.testing.junit5.HelidonRoutingJunitExtension.lambda$initRoutings$5(HelidonRoutingJunitExtension.java:147)
+	at io.helidon.webserver.testing.junit5.Junit5Util.withStaticMethods(Junit5Util.java:75)
+	at io.helidon.webserver.testing.junit5.HelidonRoutingJunitExtension.initRoutings(HelidonRoutingJunitExtension.java:143)
+	at io.helidon.webserver.testing.junit5.HelidonRoutingJunitExtension.beforeAll(HelidonRoutingJunitExtension.java:87)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeBeforeAllCallbacks$12(ClassBasedTestDescriptor.java:395)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeBeforeAllCallbacks(ClassBasedTestDescriptor.java:395)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:211)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:84)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.helidon.webserver.testing.junit5.HelidonRoutingJunitExtension.lambda$createRoutingMethodCall$6(HelidonRoutingJunitExtension.java:182)
+	... 47 more
+Caused by: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: FATAL: database "mem:test" does not exist
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:596)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:582)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at io.helidon.dbclient.hikari.HikariConnectionPool.<init>(HikariConnectionPool.java:50)
+	at io.helidon.dbclient.hikari.HikariConnectionPool$Builder.build(HikariConnectionPool.java:124)
+	at io.helidon.dbclient.hikari.HikariConnectionPoolProvider.create(HikariConnectionPoolProvider.java:45)
+	at io.helidon.dbclient.hikari.HikariConnectionPoolProvider.create(HikariConnectionPoolProvider.java:25)
+	at io.helidon.dbclient.jdbc.JdbcConnectionPool.create(JdbcConnectionPool.java:76)
+	at io.helidon.config.ConfigValues.lambda$create$4(ConfigValues.java:168)
+	at io.helidon.config.ConfigValues$GenericConfigValueImpl.asOptional(ConfigValues.java:255)
+	at io.helidon.common.mapper.OptionalValue.ifPresent(OptionalValue.java:188)
+	at io.helidon.dbclient.jdbc.JdbcClientBuilder.config(JdbcClientBuilder.java:56)
+	at io.helidon.dbclient.jdbc.JdbcClientBuilder.config(JdbcClientBuilder.java:27)
+	at io.helidon.dbclient.DbClient$Builder.config(DbClient.java:206)
+	at io.helidon.dbclient.DbClient.builder(DbClient.java:151)
+	at io.helidon.dbclient.DbClient.create(DbClient.java:87)
+	at io.helidon.examples.quickstart.se.LibraryService.lambda$0(LibraryService.java:21)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at io.helidon.examples.quickstart.se.LibraryService.<init>(LibraryService.java:21)
+	at io.helidon.examples.quickstart.se.Main.routing(Main.java:68)
+	at io.helidon.examples.quickstart.se.AbstractMainTest.routing(AbstractMainTest.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 49 more
+Caused by: org.postgresql.util.PSQLException: FATAL: database "mem:test" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2825)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	... 70 more
+]]></error>
+    <system-err><![CDATA[2024.03.17 22:56:44.987 HikariPool-1 - Starting...
+2024.03.17 22:56:46.344 HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: database "mem:test" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2825)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql.Driver.connect(Driver.java:297)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at io.helidon.dbclient.hikari.HikariConnectionPool.<init>(HikariConnectionPool.java:50)
+	at io.helidon.dbclient.hikari.HikariConnectionPool$Builder.build(HikariConnectionPool.java:124)
+	at io.helidon.dbclient.hikari.HikariConnectionPoolProvider.create(HikariConnectionPoolProvider.java:45)
+	at io.helidon.dbclient.hikari.HikariConnectionPoolProvider.create(HikariConnectionPoolProvider.java:25)
+	at io.helidon.dbclient.jdbc.JdbcConnectionPool.create(JdbcConnectionPool.java:76)
+	at io.helidon.config.ConfigValues.lambda$create$4(ConfigValues.java:168)
+	at io.helidon.config.ConfigValues$GenericConfigValueImpl.asOptional(ConfigValues.java:255)
+	at io.helidon.common.mapper.OptionalValue.ifPresent(OptionalValue.java:188)
+	at io.helidon.dbclient.jdbc.JdbcClientBuilder.config(JdbcClientBuilder.java:56)
+	at io.helidon.dbclient.jdbc.JdbcClientBuilder.config(JdbcClientBuilder.java:27)
+	at io.helidon.dbclient.DbClient$Builder.config(DbClient.java:206)
+	at io.helidon.dbclient.DbClient.builder(DbClient.java:151)
+	at io.helidon.dbclient.DbClient.create(DbClient.java:87)
+	at io.helidon.examples.quickstart.se.LibraryService.lambda$0(LibraryService.java:21)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at io.helidon.examples.quickstart.se.LibraryService.<init>(LibraryService.java:21)
+	at io.helidon.examples.quickstart.se.Main.routing(Main.java:68)
+	at io.helidon.examples.quickstart.se.AbstractMainTest.routing(AbstractMainTest.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.helidon.webserver.testing.junit5.HelidonRoutingJunitExtension.lambda$createRoutingMethodCall$6(HelidonRoutingJunitExtension.java:182)
+	at io.helidon.webserver.testing.junit5.HelidonRoutingJunitExtension.lambda$initRoutings$5(HelidonRoutingJunitExtension.java:147)
+	at io.helidon.webserver.testing.junit5.Junit5Util.withStaticMethods(Junit5Util.java:75)
+	at io.helidon.webserver.testing.junit5.HelidonRoutingJunitExtension.initRoutings(HelidonRoutingJunitExtension.java:143)
+	at io.helidon.webserver.testing.junit5.HelidonRoutingJunitExtension.beforeAll(HelidonRoutingJunitExtension.java:87)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeBeforeAllCallbacks$12(ClassBasedTestDescriptor.java:395)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeBeforeAllCallbacks(ClassBasedTestDescriptor.java:395)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:211)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:84)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+]]></system-err>
+  </testcase>
+</testsuite>
