@@ -13,6 +13,8 @@ import io.helidon.webserver.observe.ObserveFeature;
 import io.helidon.webserver.observe.health.HealthObserver;
 
 public class Main {
+        private static int port;
+
         public static void main(String[] args) {
                 // load logging configuration
                 LogConfig.configureRuntime();
@@ -42,12 +44,18 @@ public class Main {
                                 .start();
 
                 System.out.println("WEB server is up! http://localhost:" + server.port() + "/simple-greet");
+
         }
 
         static void routing(HttpRouting.Builder routing) {
                 routing
                                 .register("/greet", new GreetService())
                                 .register("/library", new LibraryService())
+                                .register("/user", new UserService())
                                 .get("/simple-greet", (req, res) -> res.send("Hello World!"));
+        }
+
+        public static Integer getPort() {
+                return port;
         }
 }

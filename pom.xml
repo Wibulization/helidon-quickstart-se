@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>io.helidon.webserver</groupId>
-            <artifactId>helidon-webserver</artifactId>
+            <artifactId>helidon-webserver</artifactId>         
         </dependency>
         <dependency>
             <groupId>io.helidon.config</groupId>
@@ -118,6 +118,17 @@
             <artifactId>helidon-microprofile</artifactId>
             <version>2.3.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro</artifactId>
+            <version>1.11.1</version>
+          </dependency>
+          <dependency>
+            <groupId>io.helidon.webclient</groupId>
+            <artifactId>helidon-webclient</artifactId>
+            <version>4.0.5</version>
+        </dependency>
+        
     </dependencies>
 
     <build>
@@ -131,6 +142,31 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.avro</groupId>
+                <artifactId>avro-maven-plugin</artifactId>
+                <version>1.11.1</version>
+                <executions>
+                  <execution>
+                    <phase>generate-sources</phase>
+                    <goals>
+                      <goal>schema</goal>
+                    </goals>
+                    <configuration>
+                      <sourceDirectory>${project.basedir}/src/main/java/io/helidon</sourceDirectory>
+                      <outputDirectory>${project.basedir}/target/generated-sources</outputDirectory>
+                    </configuration>
+                  </execution>
+                </executions>
+              </plugin>
+              <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                  <source>1.8</source>
+                  <target>1.8</target>
+                </configuration>
+              </plugin>
         </plugins>
     </build>
 </project>

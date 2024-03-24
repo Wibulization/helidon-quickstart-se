@@ -17,3 +17,7 @@ db:
     metrics:
       - type: COUNTER 
         statement-names: [ "select-book" ]
+
+server:
+  port: 8080
+  host: 0.0.0.0
