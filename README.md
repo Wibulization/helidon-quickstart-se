@@ -141,12 +141,17 @@ Json Response
 ```
 java -jar target/helidon-quickstart-se.jar
 ```
+
+```
 curl -X POST http://localhost:8080/user/postUser
 POST was received and users.arvo create
+```
+
 ```
 curl -X GET http://localhost:8080/user/getUser
 {"name": "Alyssa", "favorite_number": 256, "favorite_color": null}
 {"name": "Ben", "favorite_number": 7, "favorite_color": "red"}
 {"name": "Charlie", "favorite_number": null, "favorite_color": "blue"}
+```
 
                                 
