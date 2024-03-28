@@ -142,11 +142,12 @@ Json Response
 java -jar target/helidon-quickstart-se.jar
 ```
 
+POST Serialize Arvo file
 ```
-curl -X POST http://localhost:8080/user/postUser
+curl -X POST http://localhost:8080/user/postUserS
 POST was received and users.arvo create
 ```
-
+Get Deserialize Arvo file
 ```
 curl -X GET http://localhost:8080/user/getUser
 {"name": "Alyssa", "favorite_number": 256, "favorite_color": null}
