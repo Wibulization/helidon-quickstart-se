@@ -1,2 +1,8 @@
+io\helidon\examples\quickstart\se\Main.class
+io\helidon\examples\quickstart\se\package-info.class
+io\helidon\examples\quickstart\se\LibraryService.class
 io\helidon\examples\User.class
+io\helidon\examples\quickstart\se\GreetService.class
+io\helidon\examples\quickstart\se\Client.class
 io\helidon\examples\User$Builder.class
+io\helidon\examples\quickstart\se\UserService.class

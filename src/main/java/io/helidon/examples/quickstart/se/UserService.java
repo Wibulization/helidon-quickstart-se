@@ -5,7 +5,6 @@ import java.io.IOException;
 
 import org.apache.avro.file.DataFileReader;
 import org.apache.avro.file.DataFileWriter;
-import org.apache.avro.generic.GenericData.Array;
 import org.apache.avro.io.DatumReader;
 import org.apache.avro.io.DatumWriter;
 import org.apache.avro.specific.SpecificDatumReader;
@@ -79,7 +78,7 @@ public class UserService implements HttpService {
         dataFileWriter.append(user1);
         dataFileWriter.append(user2);
         dataFileWriter.append(user3);
-        serverResponse.send("postUser send and users.arvo create");
+        serverResponse.send("POST was received and users.arvo create");
         dataFileWriter.close();
     }
 }
